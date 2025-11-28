@@ -14,8 +14,7 @@ A C-based Arbitrary Precision Calculator that performs addition, subtraction, mu
 - Divide large integers  
 - Handles very large numbers beyond `long long`  
 - Implemented using Doubly Linked Lists  
-- Modular and structured programming  
-- Dynamic memory allocation  
+- Modular and structured programming   
 - Command-line based execution  
 - Accurate sign handling  
 
