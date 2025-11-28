@@ -1,39 +1,40 @@
-# APC-Arbitrary-Precision-Calculator
+APC-Arbitrary-Precision-Calculator
 
 A C-based Arbitrary Precision Calculator that performs addition, subtraction, multiplication, and division on large integers using doubly linked lists.
 
----
+📌 Project Overview
 
-## 📌 Project Overview
+APC (Arbitrary Precision Calculator) is a Data Structures based project developed in the C programming language. It is designed to perform arithmetic operations on very large numbers that exceed the size limits of standard data types such as int, long, and long long.
 
-**APC (Arbitrary Precision Calculator)** is a Data Structures based project developed in the C programming language. It is designed to perform arithmetic operations on very large numbers that exceed the size limits of standard data types such as `int`, `long`, and `long long`.
+Instead of using built-in numeric types, the calculator stores each digit of the number in a doubly linked list, enabling accurate and efficient computation for large integers.
 
-Instead of using built-in numeric types, the calculator stores each digit of the number in a **doubly linked list**, enabling accurate and efficient computation for large integers.
+✨ Features
 
----
+Supports Addition, Subtraction, Multiplication, and Division
 
-## ✨ Features
+Handles very large integers
 
-- Supports **Addition, Subtraction, Multiplication, and Division**
-- Handles **very large integers**
-- Implemented using **Doubly Linked Lists**
-- Modular and structured programming
-- Dynamic Memory Allocation
-- Command-line based execution
-- Accurate sign handling (+ / -)
+Implemented using Doubly Linked Lists
 
----
+Modular and structured programming
 
-## 🛠️ Technologies Used
+Dynamic Memory Allocation
 
-- Programming Language: **C**
-- Data Structures: **Doubly Linked Lists**
-- Compiler: **GCC**
-- Platform: **Linux / Windows**
+Command-line based execution
 
----
+Accurate sign handling (+ / -)
 
-## 📂 Project Structure
+🛠️ Technologies Used
+
+Programming Language: C
+
+Data Structures: Doubly Linked Lists
+
+Compiler: GCC
+
+Platform: Linux / Windows
+
+📂 Project Structure
 
 APC-Arbitrary-Precision-Calculator/
 │
@@ -47,22 +48,20 @@ APC-Arbitrary-Precision-Calculator/
 ├── README.md
 └── Makefile (optional)
 
----
+⚙️ How to Compile and Run
 
-## ⚙️ How to Compile and Run
-
-### Step 1: Compile the Program
-```bash
+Step 1: Compile the Program
 gcc *.c -o apc
 
 Step 2: Run the Program
 ./apc
 
-Sample Operations
-Input  : 9876543210123456789 + 123456789
+🧮 Sample Operations
+
+Input : 9876543210123456789 + 123456789
 Output : 9876543333580244578
 
-Input  : 999999999999 - 888888888888
+Input : 999999999999 - 888888888888
 Output : 111111111111
 
 🎯 Learning Outcomes
