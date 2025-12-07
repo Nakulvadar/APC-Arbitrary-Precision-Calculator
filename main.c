@@ -1,3 +1,48 @@
+/*APC - Arithmetic Processing Calculator
+Brief Project Documentation
+Student Name: Nakul Anil Vadar
+Project Name: APC (Arithmetic Processing Calculator)
+Batch ID: 25021_325
+________________________________________
+1. Introduction
+APC is a command-line calculator developed in C that performs arithmetic on very large numbers.
+Since normal integers overflow, this project stores numbers digit-by-digit using a Doubly Linked List, allowing calculations of any size.
+________________________________________
+2. Features
+1	Works with unlimited-length numbers.
+2	Supports Addition, Subtraction, Multiplication, Division.
+3	Uses Doubly Linked Lists for number storage.
+4	Handles signs (+/-) correctly.
+5	Gives clear error messages (e.g., division by zero).
+________________________________________
+3. How It Works
+1.	User enters two numbers and chooses an operation.
+2.	Each number is converted into a doubly linked list.
+3.	The operation is executed using manual arithmetic logic (carry, borrow, etc.).
+4.	The result is stored in a new linked list and displayed.
+________________________________________
+4. Sample Output
+Input:
+A = 99999
+B = 1
+Operation: +
+Output:
+Result = 100000
+________________________________________
+5. Advantages
+1	No overflow (numbers can be extremely large).
+2	Memory efficient.
+3	Easy to understand modular C code.
+________________________________________
+6. Limitations
+1	Works only for integers (no decimals).
+2	Division is slower for very big numbers.
+________________________________________
+7. Conclusion
+APC successfully performs big-number arithmetic using C and linked lists.
+The project demonstrates understanding of data structures, pointer manipulation, and arithmetic algorithms.
+
+
 /**************************************************************************************************************************************************************
 *Title		: main function(Driver function)
 *Description	: This function is used as the driver function for the all the functions
